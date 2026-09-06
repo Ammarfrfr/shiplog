@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Shiplog",
+    "slug": "shiplog",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "shiplog",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0F1319"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.shiplog.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0F1319"
+      },
+      "package": "com.shiplog.app",
+      "softwareKeyboardLayoutMode": "pan"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-secure-store"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "781d1c7b-270c-4662-b18e-be66910ef320"
+      }
+    },
+    "owner": "ammarbhai"
+  }
+}
